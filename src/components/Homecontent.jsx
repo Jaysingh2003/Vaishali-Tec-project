@@ -2,7 +2,7 @@ import React from 'react';
 
 const cardData = [
   {
-    imgSrc: 'web.png',
+    imgSrc: 'webgif.gif',
     title: 'Web Development',
     description: 'We create modern, user-friendly websites that showcase your brand\'s unique selling points.',
   },
@@ -32,11 +32,11 @@ function Homecontent() {
       </p>
       <div className='flex flex-wrap justify-center gap-8 mt-12'>
         {cardData.map((card, index) => (
-          <div key={index} className="card w-[30vh] h-[33vh] rounded-lg shadow-lg p-4 flex flex-col items-center">
+          <div key={index} className="card w-[30vh] h-[34vh] rounded-lg shadow-lg p-4 flex flex-col items-center">
             <img
               src={card.imgSrc}
               alt={card.title}
-              className='w-full h-[130px]  object-cover rounded-t-lg'
+              className='w-full h-[125px]  object-cover rounded-t-lg'
             />
             <div className='text-center mt-9'>
               <h3 className='text-lg font-bold'>{card.title}</h3>
